@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Fortune Teller",
+  "version": "1.0",
+  "description": "Predict your future… Hack Club style!",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": []
+}

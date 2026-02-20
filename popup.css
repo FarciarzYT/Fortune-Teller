@@ -1,0 +1,60 @@
+:root {
+    --hc-bg: #fff;
+    --hc-text: #111;
+    --hc-accent: #ff6d00;
+    --hc-accent-light: #ff9c4a;
+    --hc-border: #e0e0e0;
+    --hc-shadow: rgba(0, 0, 0, 0.1);
+    --hc-radius: 8px;
+}
+
+body {
+    margin: 0;
+    width: 320px;
+    padding: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--hc-bg);
+    color: var(--hc-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+button {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background: var(--hc-accent);
+    border: none;
+    border-radius: var(--hc-radius);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 3px 6px var(--hc-shadow);
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: var(--hc-accent-light);
+}
+
+#fortune {
+    margin-top: 8px;
+    font-size: 1rem;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid var(--hc-border);
+    border-radius: var(--hc-radius);
+    width: 100%;
+    min-height: 40px;
+}

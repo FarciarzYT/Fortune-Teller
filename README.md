@@ -4,7 +4,7 @@ A fun Chrome Extension that predicts your future.
 
 ## Installation
 
-1. Clone or download this repository.
+1. Clone or download this repository or .crx FILE.
 2. Open Chrome and go to `chrome://extensions/`.
 3. Enable **Developer mode** in the top-right corner.
 4. just drag .crx file from the folder to chrome://extensions/

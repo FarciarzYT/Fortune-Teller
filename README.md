@@ -9,6 +9,8 @@ A fun Chrome Extension that predicts your future.
 3. Enable **Developer mode** in the top-right corner.
 4. just drag it from the folder to chrome://extensions/
 6. Click the extension icon to open the Fortune Teller popup and get your predictions!
+   
+[▶ Watch demo](./showcase.mp4)
 
 ## Usage
 

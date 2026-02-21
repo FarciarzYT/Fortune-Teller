@@ -14,6 +14,6 @@ A fun Chrome Extension that predicts your future.
 
 ## Usage
 
-- Click the **Predict Your Future** button.
+- Click the **Reveal Fortune** button.
 - wait for the worst...
 

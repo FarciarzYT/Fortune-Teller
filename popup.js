@@ -33,3 +33,7 @@ function generate() {
 }
 
 againBtn.addEventListener("click", generate);
+
+chrome.runtime.sendMessage({ type: "PING_FLAVORTOWN" }, res => {
+    console.log("Ping result:", res);
+});

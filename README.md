@@ -4,14 +4,16 @@ A fun Chrome Extension that predicts your future.
 
 ## Installation
 
-1. Clone or download this repository.
+1. Clone or download this repository or .crx FILE.
 2. Open Chrome and go to `chrome://extensions/`.
 3. Enable **Developer mode** in the top-right corner.
-4. Click **Load unpacked** and select the folder with this extension.
-5. Click the extension icon to open the Fortune Teller popup and get your predictions!
+4. just drag .crx file from the folder to chrome://extensions/
+6. Click the extension icon to open the Fortune Teller popup and get your predictions!
+   
+[▶ Watch demo](https://youtu.be/f1yHTUT4YeI)
 
 ## Usage
 
-- Click the **Predict Your Future** button.
+- Click the **Reveal Fortune** button.
 - wait for the worst...
 

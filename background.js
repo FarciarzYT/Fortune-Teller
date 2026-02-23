@@ -1,5 +1,5 @@
 const PROJECT_ID = 13765;
-const PING_URL = `https://flavortown.hackclub.com/api/v1/projects/${PROJECT_ID}`;
+const PING_URL = `https://flavortown.hackclub.com/projects/${PROJECT_ID}`;
 
 
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
@@ -8,7 +8,8 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
             method: "GET",
             headers: {
                 [`X-Flavortown-Ext-${PROJECT_ID}`]: "true"
-            }
+            },
+            credentials: "include"
         })
             .then(res => {
                 console.log("Flavortown status:", res.status);
